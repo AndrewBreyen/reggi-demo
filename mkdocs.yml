@@ -32,6 +32,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 plugins:
   - glightbox
@@ -46,3 +49,6 @@ nav:
     - Troubleshooting:
       - troubleshooting/index.md
       - 'iOS: White Screen': 'troubleshooting/ios-white-screen.md'
+    - Contribute:
+      - contribute/index.md
+      - 'Local Docs Development Environment Setup': 'contribute/local-development/'
