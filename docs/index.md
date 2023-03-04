@@ -18,9 +18,3 @@ But Walmart, Target, any of the other big box app stores: all you can do is look
 
 
 Enter: Reggi.
-
-(edit to index)
-another edit
-
-edit 4
-5
