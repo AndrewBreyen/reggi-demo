@@ -34,7 +34,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'SUCCESSFUL BUILD AND DEPLOY: Branch: ${{ github.ref_name }} :tada:'
+          args: 'SUCCESS: job ${{ github.jobs.<job_id>.name }}:tada:'
 
       - name: Discord notification - build only
         if: ${{ success() && github.ref != 'refs/heads/main'}}
